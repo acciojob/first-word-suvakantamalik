@@ -2,11 +2,9 @@ function firstWord(s) {
   // your code here
 	let firstWordAns = "";
 	let i=0;
-	let flag = true;
-	while (flag === true || i <= s.length) {
+	while (i <= s.length) {
 		let char = s[i];
 		if(char === " "){
-			flag = false;
 			return firstWordAns;
 		}
 		else{
