@@ -12,7 +12,7 @@ function firstWord(s) {
 			i++;
 		}
 	}
-	return "";
+	return firstWordAns;
 }
 
 // Do not change the code below
