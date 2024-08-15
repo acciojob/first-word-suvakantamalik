@@ -2,6 +2,7 @@ function firstWord(s) {
   // your code here
 	let firstWordAns = "";
 	let i=0;
+	s = s.trim();
 	while (i < s.length) {
 		let char = s[i];
 		if(char === " "){
@@ -14,7 +15,6 @@ function firstWord(s) {
 	}
 	return firstWordAns;
 }
-
 // Do not change the code below
 
 const s = prompt("Enter String:");
